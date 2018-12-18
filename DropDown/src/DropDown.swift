@@ -196,7 +196,7 @@ open class DropDown: UIView {
 	/**
 	The color of the dimmed background (behind the drop down, covering the entire screen).
 	*/
-	public var dimmedBackgroundColor = UIColor.clear {
+	public var dimmedBackgroundColor = UIColor(red: 145.0/255, green: 145.0/255, blue: 145.0/255, alpha: 0.8) {
 		willSet { super.backgroundColor = newValue }
 	}
 
